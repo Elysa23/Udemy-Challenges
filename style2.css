@@ -1,0 +1,50 @@
+body {
+  font-family: sans-serif;
+  border-style: solid;
+  border-color: black;
+}
+
+h2 {
+  text-align: center;
+  font-weight: bold;
+  background-color: rgb(224, 221, 221);
+}
+
+strong {
+  font-size: 20px;
+  font-weight: 900;
+}
+.FS {
+  color: rgb(141, 139, 139);
+}
+
+.Description {
+  font-weight: 600;
+}
+
+a:link {
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+h5 {
+  font-weight: 900;
+}
+
+ul {
+  font-weight: 500;
+  color: rgb(7, 2, 2);
+}
+
+button {
+  background-color: black;
+  color: #fff;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+}
