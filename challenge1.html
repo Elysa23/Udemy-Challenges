@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>The code magazine</h1>
+    <img src="C:\Users\ME-PC\Pictures\spies.png" alt="Logo totally spies"  width="400" height="250">
+   
+    <nav>
+   <a href="blog.html" target="_blank">Blog</a>
+   <a href="#">Challenges</a>
+   <a href="#">CSS Grid</a>
+   <a href="#">Flexbox</a>
+   </nav>
+  </header>
+
+<article>
+<br>
+<h1>Titre à tester</h1>
+<standsp>HTML  for <b>H</b>yper <b>T</b>ext <b>M</b>arkup <b>L</b>anguage</p>
+   <h2> La dérivation de classe </h2> 
+   <p>
+La dérivation est principalement le fait de créer une nouvelle classe à partir d’une classe 
+existante. Dans ce cas, la nouvelle classe qu’on vient de créer possède les propriétés et 
+méthodes de l’ancienne classe. C’est ce qu’on appelle héritage. 
+A partir de là, tous les membres de la classe peuvent être redéfinis aussi. On parlera alors 
+de polymorphisme et de surdéfinition de méthode et d’opérateur.
+</p>
+
+<h3>1. L’héritage </h3>
+<p>
+L’héritage consiste créer une nouvelle classe B à partir d'une ancienne classe A. La classe 
+A sert de modèle, de base de départ. La classe B contient tous les membres de la classe 
+A plus d’autres qui lui sont propres.
+Cela permet d'éviter d'avoir à réécrire un même code source plusieurs fois.
+La classe dérivée B « hérite » de la classe de base A.
+On dit aussi que A est la classe mère et B la classe fille, ou que B dérive de A. 
+La relation d'héritage est une relation de généralisation-spécialisation : B est une 
+spécialisation de A et A est une généralisation de B.
+La relation peut aussi être exprimée par « B est un A ».
+</p>
+<br>
+
+<p>
+On a une classe de base Point avec les attributs x et y (abscisse et ordonné). Puis, on 
+crée une autre classe PointCol qui est un point coloré dont la couleur est exprimée par 
+un troisième attribut de type string.
+
+</p>
+<br>
+
+L’exemple ci-dessous montre les déclarations et définitions de ces 2 classes.
+<br>Déclarations dans le header
+<p> 
+  <code> Point { 
+<br>int x; int y;
+<br><br>public:
+<br>Point(int, int) ;
+<br><br>void deplace(int, int) ;
+<br>void affiche() ;
+};
+<br>class PointCol : public Point { 
+<br>string couleur;
+<br><br>public: 
+<br><br>PointCol(int, int, string);
+<br>void setcoleur(int) ;
+</code>
+</p>
+<h3>Test autres listes</h3>
+<p>
+  <ul>
+    <li class=""Liste-un"">Ligne 1</li>
+    <li>Ligne 2</li>
+    <li>Ligne 3</li>
+    <li>Ligne 4</li>
+  </ul>
+</p>
+</article>
+
+<aside>
+<h5>Related posts</h5>
+<ul>
+<li class="Liste-un">
+<img src="fb.jpg" alt="fb" width="50" height="50"> <a href="#">The unknown powers of CSS</a>
+<br><br>
+By Jonas Scheider
+</li><br>
+<li>
+  <img src="img1.png" alt="img1" width="50" height="50"> <a href="#">How to learn  web developpment</a>
+<br><br>
+  By Elysa N.
+</li><br>
+<li>
+  <img src="img2.png" alt="img2" width="50" height="50"> <a href="#">Why Javascript is awesome?</a>
+<br><br>
+By Mimi Nam
+</li>
+
+</ul>
+
+</aside>
+<footer>
+    Copyright &copy; 2027 by the Code Magazine
+</footer>
+</body>
+</html> 
