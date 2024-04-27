@@ -2,12 +2,14 @@ body {
   font-family: sans-serif;
   border-style: solid;
   border-color: black;
+  line-height: 1.4; /*Une sorte d'espace entre les lignes */
 }
 
 h2 {
   text-align: center;
   font-weight: bold;
   background-color: rgb(224, 221, 221);
+  text-transform: uppercase; /* C'est pour mettre les lettres del'élément en majuscule*/
 }
 
 strong {
@@ -16,17 +18,16 @@ strong {
 }
 .FS {
   color: rgb(141, 139, 139);
+  text-transform: uppercase;
 }
 
-.Description {
-  font-weight: 600;
-}
-
-a:link {
+.more-info:link,
+.more-info :visited {
   color: black;
 }
 
-a:hover {
+.more-info:hover,
+.more-info :active {
   text-decoration: none;
 }
 
@@ -37,11 +38,15 @@ h5 {
 ul {
   font-weight: 500;
   color: rgb(7, 2, 2);
+  list-style: square;
 }
 
 button {
   background-color: black;
   color: #fff;
+  border: none;
+  text-transform: uppercase;
+  cursor: pointer; /*nouvelle propriété apprise 27/04/24*/
 }
 
 button:hover {
